@@ -1,11 +1,15 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "A backend project forms the core of an application, managing data, logic, and interactions between the user interface and the server, ensuring smooth functionality and reliable performance.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
